@@ -1,0 +1,29 @@
+
+# Python virtual environments
+env/
+venv/
+.venv/
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Model weights and generated audio
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.wav
+*.mp3
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
